@@ -1,4 +1,5 @@
 REGISTER LEVEL PROGRAMMING
+
 This repository contains various projects demonstrating register-level programming on Arduino. Register-level programming gives you more direct control over the microcontroller's hardware by interacting with its registers, rather than relying on high-level libraries. This approach allows you to write more efficient and optimized code, allows you to configure and control peripherals like GPIO pins, timers, serial communication, and interrupts using the microcontroller's registers. which is particularly useful in embedded systems where resources are limited.
 
 Projects in This Repository
