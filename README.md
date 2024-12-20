@@ -4,6 +4,7 @@ This repository contains various projects demonstrating register-level programmi
 
 Projects in This Repository
 This repository contains the following projects that showcase various aspects of register-level programming in Arduino:
+
 1. DELAY FUNCTION HEADER FILE
 
    A custom delay function implemented using hardware timers, providing more accurate and efficient delays compared to the delay() function provided by the Arduino core. This implementation directly interacts 
@@ -15,19 +16,19 @@ This repository contains the following projects that showcase various aspects of
    A basic project to blink an LED using register-level programming. The project configures a digital pin as an output, manipulates its state, and toggles the LED on and off at regular intervals using direct 
    register manipulation.
 
-4. LED BLINKING USING TOUCH SENSOR
+3. LED BLINKING USING TOUCH SENSOR
 
    An enhancement of the LED blinking project where an LED is toggled based on input from a capacitive touch sensor. The touch sensor is used to detect a touch event, and the program toggles the LED accordingly. 
    This project demonstrates how to interface a touch sensor and use register-level programming to handle digital input and control output.
    Key Concepts: Touch sensor interfacing, digital input reading using registers, conditional LED control based on input.
 
-5. USART COMMUNICATION
+4. USART COMMUNICATION
 
     A project that demonstrates serial communication between the Arduino and a PC or another device using the USART (Universal Synchronous and Asynchronous serial Receiver and Transmitter). This project involves 
     sending and receiving data via the USART module by directly manipulating the UART control and status registers.
     Key Concepts: USART configuration, baud rate calculation, data transmission and reception using UART registers, serial communication without using Arduino's Serial library.
 
-6. UI2C Using Register-Level Programming
+5. I2C Using Register-Level Programming
 
    This repository demonstrates I2C communication through register-level programming, where you directly manipulate the hardware registers to communicate with I2C devices.
    I2C (Inter-Integrated Circuit) is a popular serial communication protocol used to connect microcontrollers with peripheral devices like sensors, EEPROMs, and LCD displays. In register-level programming, you 
