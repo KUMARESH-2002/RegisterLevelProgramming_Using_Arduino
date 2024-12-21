@@ -43,9 +43,13 @@ This repository contains the following projects that showcase various aspects of
    This Project explains interfacing HD44780 LCD using register-level programming. The HD44780 is a widely used character LCD controller, and register-level programming gives you fine-grained control over its operations by directly manipulating its control and data pins.
 
    The HD44780 LCD module operates in two modes: command mode and data mode. It is controlled using several pins:
+
    RS (Register Select): Determines whether you are sending a command (RS = 0) or data (RS = 1).
+
    RW (Read/Write): Controls the direction of data flow; 0 for write, 1 for read.
+
    E (Enable): Latches the data from the data pins into the LCD controller on a rising edge.
+
    Data Pins (D0-D7): Used to send command or data bytes to the LCD. For 8-bit mode, all 8 data pins are used; for 4-bit mode, only the upper 4 data pins (D4-D7) 
    are used
 
