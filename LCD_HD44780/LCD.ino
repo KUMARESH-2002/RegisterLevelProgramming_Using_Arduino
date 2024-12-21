@@ -1,5 +1,5 @@
-#include"lcd.h"
 #include<avr/io.h>
+#include"lcd.h"
   void setup()
   {
   DDRD=0XFF;
