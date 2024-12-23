@@ -5,6 +5,7 @@ This repository contains various projects demonstrating register-level programmi
 Projects in This Repository
 This repository contains the following projects that showcase various aspects of register-level programming in Arduino:
 
+   
    I2C
 
    This Project demonstrates I2C communication through register-level programming, where you directly manipulate the hardware registers to communicate with I2C 
@@ -13,6 +14,7 @@ This repository contains the following projects that showcase various aspects of
    LCD displays. In register-level programming, you 
    bypass high-level libraries and interact directly with the microcontroller's hardware registers for sending and receiving data.
 
+   
    
    LCD HD44780
 
@@ -31,6 +33,7 @@ This repository contains the following projects that showcase various aspects of
    the RS, RW, and E control pins and sending data through the data pins (D0-D7), you can send both commands and data to the LCD.
 
    
+   
    ULTRASONIC SENSOR
 
    This project demonstrates how to interface an Ultrasonic Distance Sensor with an AVR microcontroller using register-level programming. The goal is to measure the distance to an object using the 
@@ -38,6 +41,7 @@ This repository contains the following projects that showcase various aspects of
    The project uses Timer/Counter and GPIO registers directly to control and read from the ultrasonic sensor, avoiding higher-level libraries. This allows for a deeper understanding of embedded systems 
    programming and how hardware peripherals interact with each other at a low level.
 
+   
    
    BLUETOOTH CONTROLLED LED
 
@@ -48,6 +52,7 @@ This repository contains the following projects that showcase various aspects of
    enthusiasts who want to understand how microcontrollers work at a hardware level.
 
 
+   
    LED BLINKING
 
    A basic project to blink an LED using register-level programming. The project configures a digital pin as an output, manipulates its state, and toggles the LED on and off at regular intervals using direct 
@@ -61,6 +66,7 @@ This repository contains the following projects that showcase various aspects of
    Key Concepts: Touch sensor interfacing, digital input reading using registers, conditional LED control based on input.
 
 
+   
    USART COMMUNICATION
 
    This project that demonstrates serial communication between the Arduino and a PC or another device using the USART (Universal Synchronous and Asynchronous serial 
@@ -69,6 +75,7 @@ This repository contains the following projects that showcase various aspects of
    Key Concepts: USART configuration, baud rate calculation, data transmission and reception using UART registers, serial communication without using Arduino's 
  
  
+
  DELAY FUNCTION HEADER FILE
 
    A custom delay function implemented using hardware timers, providing more accurate and efficient delays compared to the delay() function provided by the Arduino core. This implementation directly interacts 
